@@ -1,12 +1,20 @@
----
-layout: default
-title: 我的Blog
----
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>安装此软件</title>
+  </head>
+  <body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p align=center>
+		<font size="8">
+			<a href="itms-services://?action=download-manifest&url=http://kevinva.github.io/Fenba.plist">点击这里安装</a>
+		</font>
+	</p>
 
-<h2>{{ page.title }}<h2>
-<p>最新文章</p>
-<ul>
-    {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+    </div>
+  </body>
+</html>
